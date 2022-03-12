@@ -73,4 +73,12 @@
 }
 .music {
   display: none;
+
+  &-button {
+    position: absolute;
+    height: 50px;
+    width: 200px;
+    bottom: 0;
+    z-index: 1;
+  }
 }
