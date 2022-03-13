@@ -64,11 +64,10 @@ class App extends React.Component {
     // check clicked answer and display gif
     const checkAnswer = (name) => {
       if (name === this.state.name) {
-
         // play wow
         const wowObj = new Audio(wow);
         wowObj.play();
-        
+
         // right answer: get gif, show pokemon, and reset state values
         axios
           .get(`${GIPHY_API_URL}?q="happy pokemon"&api_key=${GIPHY_API_KEY}`)
@@ -95,7 +94,6 @@ class App extends React.Component {
 
         // wrong answer: get gif
       } else {
-        
         // play fart sound
         const fartObj = new Audio(fart);
         fartObj.play();
@@ -120,13 +118,15 @@ class App extends React.Component {
       this.setState({ playAudio: play });
 
       const theme = new Audio(pokemonTheme);
-      theme.loop = true;
-      theme.volume = 0.10;
 
-      if (play === false) {
-        theme.pause();
-      } else {
+      theme.volume = 0.1;
+
+      if (play === true) {
+        theme.loop = true;
         theme.play();
+      } else {
+        theme.loop = false;
+        theme.pause();
       }
     };
 
