@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/pair-programmingv2/static/css/main.149a1833.css",
+    "main.js": "/pair-programmingv2/static/js/main.f1b2a4dc.js",
+    "static/js/787.880263e1.chunk.js": "/pair-programmingv2/static/js/787.880263e1.chunk.js",
+    "static/media/Pokemon-Theme-Song.mp3": "/pair-programmingv2/static/media/Pokemon-Theme-Song.302859f2cb4bfa097aae.mp3",
+    "static/media/whos_that_pokemon.webp": "/pair-programmingv2/static/media/whos_that_pokemon.7cbba57ab14092e97802.webp",
+    "static/media/Pokemon Hollow.ttf": "/pair-programmingv2/static/media/Pokemon Hollow.47f77ce9939c5330492b.ttf",
+    "static/media/wow.mp3": "/pair-programmingv2/static/media/wow.64398b42428cb79ac341.mp3",
+    "static/media/bump.mp3": "/pair-programmingv2/static/media/bump.70aea1fcdda2d3265e10.mp3",
+    "static/media/fart.mp3": "/pair-programmingv2/static/media/fart.a26510f2273dd86ae7c6.mp3",
+    "index.html": "/pair-programmingv2/index.html",
+    "main.149a1833.css.map": "/pair-programmingv2/static/css/main.149a1833.css.map",
+    "main.f1b2a4dc.js.map": "/pair-programmingv2/static/js/main.f1b2a4dc.js.map",
+    "787.880263e1.chunk.js.map": "/pair-programmingv2/static/js/787.880263e1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.149a1833.css",
+    "static/js/main.f1b2a4dc.js"
+  ]
+}
